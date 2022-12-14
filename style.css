@@ -1,0 +1,12 @@
+.btn-info {
+font-size: 25px;
+}
+canvas {
+    animation-name:example;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:10px 10px 40px rgb(255, 0, 13);}
+    to{box-shadow:10px 10px 40px rgb(0, 255, 89);}
+}
